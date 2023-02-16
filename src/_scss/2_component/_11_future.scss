@@ -8,6 +8,8 @@
     }
 
     .c-future__items {
+        margin-top: 33px;
+        margin-bottom: 50px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -48,5 +50,13 @@
         height: 100px;
         display: flex;
         flex-direction: column;
+    }
+
+    .c-future_note {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.82;
+        color: #fff;
     }
 }
