@@ -1,104 +1,107 @@
 <%- include('_layouts/layout', { title: 'Home page' }); -%>
 
 <!-- @meta -->
-<meta name="description" content="Home page">
+<meta name="description" content="Home page" />
 <!-- @@meta -->
 
 <!-- @content -->
 <main class="p-top">
   <section class="c-mainvisual">
     <div class="c-mainvisual__inner">
-        <img src="./assets/img/mv.jpg" alt="">
+      <img src="./assets/img/mv.jpg" alt="" />
     </div>
   </section>
   <!-- Banner -->
   <div class="c-banner">
-    <div class="c-banner__content">
+    <div class="l-container">
+      <div class="c-banner__content">
         <div class="c-banner__price">
-            <img src="./assets/img/price.png" alt="">
+          <img src="./assets/img/price.png" alt="" />
         </div>
         <div class="c-banner__btns">
-            <div class="c-banner__btn">
-                <img src="./assets/img/btn-1.png" alt="">
-            </div>
-            <div class="c-banner__btn">
-              <img src="./assets/img/btn-1.png" alt="">
+          <div class="c-banner__btn">
+            <img src="./assets/img/btn-1.png" alt="" />
           </div>
-        </div>
-    </div>
-  </div>
-  <!-- Section-2-item -->       
-  <div class="c-mechanism">
-    <div class="c-mechanism__items">
-      <div class="c-mechanism__item">
-        <div class="c-mechanism__top">
-          <div class="c-mechanism__icon">
-            <img src="./assets/img/section-2-1.png" alt="">
+          <div class="c-banner__btn">
+            <img src="./assets/img/btn-1.png" alt="" />
           </div>
-          <div class="c-mechanism__header">
-              <div class="c-mechanism__label">
-                <span class="c-mechanism__text">作戦</span>
-                <span class="c-mechanism__text">その1</span>
-              </div>
-              <div class="c-mechanism__title">
-                知らない」からリピーター、
-                そしてファンへ大作戦!!
-              </div>
-          </div>
-        </div>
-        <div class="c-mechanism__main">
-          <p class="c-mechanism__p">
-            コア顧客＝ファンは生まれるものではなく、自ら創り出すものです。<br>
-            そのためには、「仕組みづくり」が重要。<br>
-            お店やブランドを「知らない層」から「購入者」「リピーター」そして「ファン」。<br>
-            層をなすように関係性を結ぶ顧客の各プロセスに応じた適切なアプローチを継続的に行うことにより、より深く、そして永いつながりを持つことが可能になります。
-          </p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Section-3-item -->
-  <div class="c-line">
-      <div class="c-line__items">
-        <div class="c-line__item">
-            <div class="c-line__img">
-                <img src="./assets/img/section-3-1.png" alt="">
-            </div>
-            <div class="c-line__content">
-              <h3 class="c-line__ititle">お客様ごとに
-                最適化された情報をお届け!!</h3>
-              <p class="c-line__p">
-                お客様ごとに、求める情報や適切なコミュニケーションの頻度は違います。<br>
-                LikATは、お客様の属性(年齢や性別、居住エリアなど)や行動(クーポンの利用やLINEを通じたサイトへの訪問)などに応じて、お客様が「今欲しい情報」をお届けすることができます。
-              </p>
+  <%- include('_partials/mechanism'); -%>
+  <!-- Banner -->
+  <div class="c-banner">
+    <div class="l-container">
+      <div class="c-banner__content">
+        <div class="c-banner__price">
+          <img src="./assets/img/price.png" alt="" />
+        </div>
+        <div class="c-banner__btns">
+          <div class="c-banner__btn">
+            <img src="./assets/img/btn-1.png" alt="" />
+          </div>
+          <div class="c-banner__btn">
+            <img src="./assets/img/btn-1.png" alt="" />
           </div>
         </div>
       </div>
+    </div>
   </div>
+  <%- include('_partials/line'); -%>
+    <!-- Banner -->
+    <div class="c-banner">
+      <div class="l-container">
+        <div class="c-banner__content">
+          <div class="c-banner__price">
+            <img src="./assets/img/price.png" alt="" />
+          </div>
+          <div class="c-banner__btns">
+            <div class="c-banner__btn">
+              <img src="./assets/img/btn-1.png" alt="" />
+            </div>
+            <div class="c-banner__btn">
+              <img src="./assets/img/btn-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('_partials/tool'); -%>
+    <%- include('_partials/use'); -%>
+     <!-- Banner -->
+     <div class="c-banner">
+      <div class="l-container">
+        <div class="c-banner__content">
+          <div class="c-banner__price">
+            <img src="./assets/img/price.png" alt="" />
+          </div>
+          <div class="c-banner__btns">
+            <div class="c-banner__btn">
+              <img src="./assets/img/btn-1.png" alt="" />
+            </div>
+            <div class="c-banner__btn">
+              <img src="./assets/img/btn-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('_partials/future'); -%>
+
   <!-- section-6-item -->
-  <div class="c-plan">
-      <div class="c-plan__items">
-        <div class="c-plan__item">
-            <div class="c-plan__icon">
-                <img src="./assets/img/section-5-1.svg" alt="">
-            </div>
-            <span class="c-plan__iconlabel">自動返信機能</span>
-            <p class="c-plan__p">お友だちの特定のアクションへメッセージを自動的に返信知りたい情報を即時に返信することでお客様満足度アップ</p>
-        </div>
-      </div>
-  </div>
+  
   <!-- Table -->
   <div class="l-container">
-
-  <table class="c-table">
-    <thead>
+    <table class="c-table">
+      <thead>
         <tr>
           <th></th>
           <th class="c-table__head c-table__head1">スタートプラン</th>
           <th class="c-table__head c-table__head2">ベーシックプラン</th>
         </tr>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
         <tr>
           <th class="c-table__th">初期費用</th>
           <td class="c-table__td c-table__start">0円</td>
@@ -114,10 +117,9 @@
           <td class="c-table__td c-table__start">2,700円</td>
           <td class="c-table__td c-table__basic">20,000円</td>
         </tr>
-    </tbody>
-  </table>
-</div>
-
+      </tbody>
+    </table>
+  </div>
 </main>
 <!-- @@content -->
 
