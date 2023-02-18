@@ -12,10 +12,10 @@
         justify-content: space-between;
         background: #fff;
         align-items: center;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
     .c-header__navlinks {
@@ -44,8 +44,11 @@
         display: flex;
         margin-bottom: 25px;
         background: #000;
-        padding: 5px 20px;
         border-radius: 16px;
+
+        a {
+            padding: 5px 20px;
+        }
     }
 
     .c-header__inquiry {
@@ -55,8 +58,8 @@
         text-align: center;
         padding: 23px 13px;
         background-color: #00be5a;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
         width: 185px;
     }
 

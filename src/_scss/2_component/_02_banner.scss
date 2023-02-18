@@ -17,6 +17,9 @@ title
         align-items: center;
         justify-content: space-between;
         padding: 23px 50px;
+        @include tab {
+            flex-direction: column;
+        }
     }
 
     .c-banner__btns {

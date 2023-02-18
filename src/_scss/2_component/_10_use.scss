@@ -26,6 +26,9 @@ line
 
     .c-use__slider {
         margin-top: 57px;
+        @include tab {
+            padding: 0 50px;
+        }
     }
 
     .c-use__slide {

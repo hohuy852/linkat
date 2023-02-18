@@ -2,6 +2,13 @@
     background: #008037;
     padding: 75px 0;
 
+    .c-future__subtitle {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 20px;
+    }
+
     .c-future__icon {
         width: 58px;
         margin: 0 auto;
@@ -21,12 +28,18 @@
         border-radius: 5px;
         width: 24.5%;
         text-align: center;
-        padding: 30px 15px 0;
+        padding: 30px 15px 35px;
         display: flex;
         flex-direction: column;
 
-        &:nth-child(n+5) {
+        &:nth-child(n + 5) {
             margin-top: 7px;
+        }
+        @include tab {
+            min-width: 49.5%;
+            &:nth-child(n + 3) {
+                margin-top: 7px;
+            }
         }
     }
 
@@ -58,5 +71,7 @@
         font-size: 1.6rem;
         line-height: 1.82;
         color: #fff;
+        max-width: 801px;
+        margin: 0 auto;
     }
 }

@@ -8,6 +8,7 @@ body {
     @include sp {
         min-width: 320px;
     }
+    scroll-behavior: smooth;
 }
 
 .l-container {
@@ -22,21 +23,35 @@ body {
     width: 100%;
 }
 
+.is-pc {
+    display: block;
+    @include tab {
+        display: none;
+    }
+}
+
 .c-arrow {
     width: 22px;
     position: absolute;
     top: 51.4%;
     cursor: pointer;
-    transition: .4s;
-    &:hover{
+    transition: 0.4s;
+
+    &:hover {
         opacity: 0.7;
     }
 }
 
 .c-arrow__left {
     left: 7.1%;
+    @include tab {
+        left: 1.1%;
+    }
 }
 
 .c-arrow__right {
     right: 7.1%;
+    @include tab {
+        right: 1.1%;
+    }
 }

@@ -56,6 +56,10 @@ icon
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @include tab {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .c-mechanism__item {
@@ -67,6 +71,11 @@ icon
 
         &:nth-last-child(-n+2) {
             margin-bottom: 0;
+        }
+        @include tab {
+            &:nth-last-child(-n+2) {
+                margin-bottom: 38px;
+            }
         }
     }
 
