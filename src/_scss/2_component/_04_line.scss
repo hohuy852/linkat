@@ -84,6 +84,12 @@ form
                 padding-right: 15px;
             }
         }
+
+        &:nth-child(3) {
+            .c-line__img {
+                padding-top: 46px;
+            }
+        }
         @include tab {
             flex-direction: column;
 
