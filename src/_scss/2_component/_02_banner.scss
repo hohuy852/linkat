@@ -10,6 +10,9 @@ title
 
     .c-banner__price {
         width: 428px;
+        @include sp {
+            width: 284px;
+        }
     }
 
     .c-banner__content {
@@ -19,6 +22,9 @@ title
         padding: 23px 50px;
         @include tab {
             flex-direction: column;
+        }
+        @include sp {
+            padding: 17px 50px;
         }
     }
 
@@ -32,6 +38,9 @@ title
 
         &:first-child {
             margin-right: 23px;
+        }
+        @include sp {
+            width: 161px;
         }
     }
 

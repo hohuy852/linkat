@@ -10,12 +10,16 @@ table
     background-image: url("../../assets/img/arrow-bg.png");
     background-size: 1358px;
     @include tab {
-    padding: 82px 25px 100px;
+        padding: 82px 25px 100px;
     }
+
     .c-faq__topicitems {
         background: #fff;
         padding: 82px 47px;
         border-radius: 30px;
+        @include sp {
+            padding: 22px 10px;
+        }
     }
 
     .c-faq__questiontitle {

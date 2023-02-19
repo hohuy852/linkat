@@ -14,10 +14,18 @@ list
         img {
             width: 489px;
         }
+        @include sp {
+            img {
+                width: 335px;
+            }
+        }
     }
 
     .c-tool__subtitle {
         margin-top: 30px;
+        @include sp {
+            font-size: 2rem;
+        }
     }
 
     .c-tool__items {

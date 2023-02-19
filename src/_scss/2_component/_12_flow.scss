@@ -6,6 +6,10 @@
     .c-flow__wrapper {
         display: flex;
         justify-content: space-between;
+        @include sp {
+            align-items: center;
+            padding: 0 26px;
+        }
     }
 
     .c-flow__left {
@@ -16,6 +20,9 @@
 
     .c-flow__right {
         width: 64%;
+        @include sp {
+            width: 100%;
+        }
     }
 
     .c-flow__items {
@@ -26,7 +33,6 @@
         display: flex;
         padding-bottom: 23px;
         margin-bottom: 56px;
-      
 
         &:not(:first-child) {
             .c-flow__content {
@@ -44,8 +50,9 @@
                 }
             }
         }
-       
+        
     }
+    
 
     .c-flow__wrapper {
         @include sp {

@@ -37,6 +37,7 @@
         }
         @include tab {
             min-width: 49.5%;
+
             &:nth-child(n + 3) {
                 margin-top: 7px;
             }

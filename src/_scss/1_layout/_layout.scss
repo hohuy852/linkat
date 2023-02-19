@@ -30,6 +30,16 @@ body {
     }
 }
 
+.is-sp {
+    display: none;
+    @include tab {
+        display: none;
+    }
+    @include sp {
+        display: block;
+    }
+}
+
 .c-arrow {
     width: 22px;
     position: absolute;
@@ -39,6 +49,9 @@ body {
 
     &:hover {
         opacity: 0.7;
+    }
+    @include sp {
+        width: 11px;
     }
 }
 

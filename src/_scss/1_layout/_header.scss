@@ -25,6 +25,10 @@
         font-weight: 700;
         width: 100%;
         justify-content: flex-end;
+        @include sp {
+            flex-direction: column;
+            color: #fff;
+        }
     }
 
     .c-header__logo {
@@ -66,6 +70,9 @@
     .c-header__mainnav {
         width: 100%;
         min-width: 632px;
+        @include sp {
+            min-width: auto;
+        }
     }
 
     .c-header__navlink {
@@ -89,6 +96,15 @@
 
     .c-header__arrowicon {
         padding-left: 12px;
+    }
+
+    .c-header__overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #000;
     }
 }
 /* Main menu
