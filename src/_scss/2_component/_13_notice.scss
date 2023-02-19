@@ -32,6 +32,9 @@
         line-height: 1.95;
         color: #000;
         padding-right: 44px;
+        @include sp {
+            font-size: calc(1.6rem * 0.75);
+        }
     }
 
     .c-notice__title {
@@ -40,5 +43,8 @@
         display: flex;
         line-height: 1.95;
         color: #000;
+        @include sp {
+            font-size: calc(1.6rem * 0.75);
+        }
     }
 }
